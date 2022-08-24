@@ -1,0 +1,17 @@
+{
+    "name": "mageguide/b2b-login",
+    "description": "Magento2 Modules allows B2B admin control over who can register in the website adding an approval customer attribute.",
+    "type": "magento2-module",
+    "require": {
+        "php": "~7.1|~7.2|~7.3|~7.4",
+        "magento/framework": "^100.0.0|^101.0.0|^102.0.0|^103.0.0|^104.0.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageGuide\\B2BLogin\\": "src/"
+        }
+    }
+}

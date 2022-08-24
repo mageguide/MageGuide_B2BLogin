@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <argument name="data" xsi:type="array">
+        <item name="buttons" xsi:type="array">
+            <item name="approve" xsi:type="string">MageGuide\B2BLogin\Block\Adminhtml\Edit\Approve</item>
+            <item name="disapprove" xsi:type="string">MageGuide\B2BLogin\Block\Adminhtml\Edit\Disapprove</item>
+            <item name="force_password" xsi:type="string">MageGuide\B2BLogin\Block\Adminhtml\Edit\ForcePassword</item>
+        </item>
+    </argument>
+   <!-- 
+   <settings>
+        <buttons>
+        	<button name="force_password" class="MageGuide\B2BLogin\Block\Adminhtml\Edit\ForcePassword"/>
+        	<button name="approve" class="MageGuide\B2BLogin\Block\Adminhtml\Edit\Approve"/>
+            <button name="disapprove" class="MageGuide\B2BLogin\Block\Adminhtml\Edit\Disapprove"/>
+            <button name="save_and_continue" class="Magento\Customer\Block\Adminhtml\Edit\SaveAndContinueButton"/>
+            <button name="save" class="Magento\Customer\Block\Adminhtml\Edit\SaveButton"/>
+            <button name="reset" class="Magento\Customer\Block\Adminhtml\Edit\ResetButton"/>
+            <button name="order" class="Magento\Customer\Block\Adminhtml\Edit\OrderButton">
+            	<param name="componentDisabled" xsi:type="boolean">true</param>
+            </button>
+            <button name="resetPassword" class="Magento\Customer\Block\Adminhtml\Edit\ResetPasswordButton"/>
+            <button name="unlock" class="Magento\Customer\Block\Adminhtml\Edit\UnlockButton"/>
+            <button name="invalidateToken" class="Magento\Customer\Block\Adminhtml\Edit\InvalidateTokenButton">
+            	<param name="componentDisabled" xsi:type="boolean">true</param>
+            </button>
+            <button name="delete" class="Magento\Customer\Block\Adminhtml\Edit\DeleteButton"/>
+            <button name="back" class="Magento\Customer\Block\Adminhtml\Edit\BackButton"/>
+        </buttons>
+    </settings>
+     -->
+</form>

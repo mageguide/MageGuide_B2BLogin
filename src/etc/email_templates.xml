@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Email:etc/email_templates.xsd">
+    <template id="b2b_customer_approve_template"
+              label="B2B Customer Approved"
+              file="b2b_customer_approve_template.html" type="html"
+              module="MageGuide_B2BLogin" area="frontend"/>
+    <template id="b2b_customer_disapprove_template"
+              label="B2B Customer Disapproved"
+              file="b2b_customer_disapprove_template.html" type="html"
+              module="MageGuide_B2BLogin" area="frontend"/>
+</config>
